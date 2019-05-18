@@ -13,7 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="095b55f0-6fde-4357-b46e-388185f63200" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintos/src/threads/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/threads/thread.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/userprog/process.c" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/userprog/process.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pintos/src/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -29,11 +29,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pintos/src/userprog/process.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2929">
-              <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+            <state relative-caret-position="223">
+              <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -41,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pintos/src/threads/thread.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="197" column="41" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -56,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pintos/src/userprog/syscall.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
+            <state relative-caret-position="774">
               <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/pintos/src/userprog/Make.vars" />
         <option value="$PROJECT_DIR$/pintos/src/userprog/syscall.c" />
         <option value="$PROJECT_DIR$/pintos/src/threads/thread.h" />
-        <option value="$PROJECT_DIR$/pintos/src/userprog/process.c" />
         <option value="$PROJECT_DIR$/pintos/src/threads/thread.c" />
+        <option value="$PROJECT_DIR$/pintos/src/userprog/process.c" />
       </list>
     </option>
   </component>
@@ -130,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,6 +159,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +233,8 @@
       <workItem from="1558170289069" duration="6000" />
       <workItem from="1558170524512" duration="8069000" />
       <workItem from="1558183326200" duration="1311000" />
-      <workItem from="1558184650458" duration="25000" />
+      <workItem from="1558184650458" duration="125000" />
+      <workItem from="1558193478843" duration="1115000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1558168634273</created>
@@ -263,17 +264,24 @@
       <option name="project" value="LOCAL" />
       <updated>1558184353634</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first commit">
+      <created>1558184685998</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558184685998</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99698000" />
+    <option name="totallyTimeSpent" value="100913000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1853" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.23450586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.23841429" />
       <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.25296018" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -535,19 +543,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/process.c">
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/thread.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2929">
-          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pintos/src/userprog/syscall.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
+        <state relative-caret-position="774">
           <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -555,12 +563,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/thread.c">
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/process.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="197" column="41" selection-start-line="197" selection-start-column="41" selection-end-line="197" selection-end-column="41" />
+        <state relative-caret-position="223">
+          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

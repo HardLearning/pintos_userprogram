@@ -65,45 +65,50 @@ start_process (void *file_name_)
     strlcpy(fn_copy, file_name_, strlen(file_name_)+1);
 
     /* Initialize interrupt frame and load executable. */
-    memset (&if_, 0, sizeof if_);
+    memset(&if_, 0, sizeof if_);
     if_.gs = if_.fs = if_.es = if_.ds = if_.ss = SEL_UDSEG;
     if_.cs = SEL_UCSEG;
     if_.eflags = FLAG_IF | FLAG_MBS;
 
     char *token, *save_ptr;
-    fn_copy = strtok_r (fn_copy, " ", &save_ptr);
+    fn_copy = strtok_r(fn_copy, " ", &save_ptr);
     success = load (fn_copy, &if_.eip, &if_.esp);
     strlcpy(fn_copy, file_name_, strlen(file_name_)+1);
 
     if (!success) {
         thread_current()->parent_thread->execute_success = false;
         sema_up(&thread_current()->parent_thread->exec_semaphore);
-        thread_exit ();
+        thread_exit();
         return;
     }
 
 
     //put the argument into the stack
-    int argc=0;
-    for ( token = strtok_r (fn_copy, " ", &save_ptr); token != NULL; token = strtok_r (NULL, " ", &save_ptr)) argc++;
+    int argc = 0;
+    token = strtok_r(fn_copy, " ", &save_ptr);
+    while (token != NULL){
+        argc++;
+        token = strtok_r(NULL, " ", &save_ptr);
+    }
 
 
     //read the argument
-    int argv[argc], count = 0;
+    int argv[argc], count = 0, zero = 0;
     strlcpy(fn_copy, file_name_, strlen(file_name_)+1);
-    for (token = strtok_r (fn_copy, " ", &save_ptr); token != NULL; token = strtok_r (NULL, " ", &save_ptr)){
+    token = strtok_r(fn_copy, " ", &save_ptr);
+    while (token != NULL){
         if_.esp -= (strlen(token) + 1);
         memcpy(if_.esp, token, strlen(token) + 1);
-        argv[count++] = (int)if_.esp;
+        argv[count++] = (unsigned)if_.esp;
+        token = strtok_r(NULL, " ", &save_ptr);
     }
-    while((int)if_.esp %4 != 0) if_.esp--;
 
 
-    int zero = 0;
+    if_.esp -= (unsigned)if_.esp % 4;
     if_.esp -= 4;
     memcpy(if_.esp, &zero, sizeof(int));
 
-    for(int i=argc-1;i>=0; --i){
+    for(int i = argc-1; i >= 0; --i){
         if_.esp -= 4;
         memcpy(if_.esp, &argv[i], sizeof(int));
     }

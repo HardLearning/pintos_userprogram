@@ -1,0 +1,3 @@
+/home/wyh-dr/Documents/os/pintos/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wyh-dr/Documents/os/pintos/src/cmake-build-debug/CMakeFiles/os.dir
+/home/wyh-dr/Documents/os/pintos/src/cmake-build-debug/CMakeFiles/edit_cache.dir

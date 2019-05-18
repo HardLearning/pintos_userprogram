@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="os"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wyh-dr/Documents/os/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wyh-dr/Documents/os/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="os">
+				<Option output="/home/wyh-dr/Documents/os/cmake-build-debug/os" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wyh-dr/Documents/os/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/userprog"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/lib"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/lib/kernel"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/lib/user"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/threads"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/utils"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/filesys"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/examples"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/devices"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 os"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="os/fast">
+				<Option output="/home/wyh-dr/Documents/os/cmake-build-debug/os" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wyh-dr/Documents/os/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/userprog"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/lib"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/lib/kernel"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/lib/user"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/threads"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/utils"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/filesys"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/examples"/>
+					<Add directory="/home/wyh-dr/Documents/os/pintos/src/devices"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 os/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wyh-dr/Documents/os/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wyh-dr/Documents/os/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bios/biossums.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bios/rombios.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bios/rombios.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bios/rombios32.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bochs.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bx_debug/debug.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bx_debug/lexer.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bx_debug/parser.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bx_debug/parser.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bx_debug/syscalls-linux.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/bxversion.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/config.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/apic.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/cpu.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/cpuid.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/cpustats.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/crregs.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/descriptor.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/fetchdecode.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/fetchdecode_avx.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/fetchdecode_evex.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/fetchdecode_sse.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/fetchdecode_x87.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/fetchdecode_xop.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/generic_cpuid.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/i387.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/ia_opcodes.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/icache.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/instr.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/lazy_flags.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/scalar_arith.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/simd_compare.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/simd_int.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/simd_pfp.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/smm.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/stack.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/svm.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/vmx.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpu/xmm.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/cpudb.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/disasm/dis_tables.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/disasm/disasm.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/extplugin.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/amigagui.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/enh_dbg.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/gui.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/icon_bochs.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/keymap.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/paramtree.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/rfb.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/rfbkeys.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/scrollwin.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/sdl.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/sdlkeys.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/siminterface.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/textconfig.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/wenhdbg_res.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/win32dialog.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/win32paramdlg.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/win32res.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/wxdialog.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/gui/wxmain.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/acpi.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/biosdev.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/busmouse.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/cmos.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/dma.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/extfpuirq.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/floppy.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/gameport.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/harddrv.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/ioapic.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/iodebug.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/iodev.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/keyboard.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/parallel.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/pci.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/pci2isa.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/pci_ide.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/pcidev.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/pic.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/pit.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/pit82c54.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/scancodes.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/serial.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/serial_raw.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/slowdown_timer.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/speaker.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/unmapped.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/iodev/virt_timer.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/ltdl-bochs.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/ltdl.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/ltdlconf.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/memory/memory.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/misc/bswap.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/misc/bxcompat.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/misc/niclist.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/misc/spoolpipe.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/osdep.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/param_names.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/pc_system.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/bochs-2.6.7/plugin.h">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/main.cpp">
+			<Option target="os"/>
+		</Unit>
+		<Unit filename="/home/wyh-dr/Documents/os/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

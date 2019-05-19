@@ -232,8 +232,8 @@ thread_block (void)
     ASSERT (!intr_context ());
     ASSERT (intr_get_level () == INTR_OFF);
 
-    thread_current ()->status = THREAD_BLOCKED;
-    schedule ();
+    thread_current()->status = THREAD_BLOCKED;
+    schedule();
 }
 
 /* Transitions a blocked thread T to the ready-to-run state.
@@ -310,7 +310,6 @@ thread_exit (void)
     // semaphore up
     sema_up(&thread_current()->as_child_thread->sema);
 
-
     // close all the files
     struct list_elem *e;
     struct list *files = &thread_current()->opened_files;
@@ -328,9 +327,9 @@ thread_exit (void)
     /* Remove thread from all threads list, set our status to dying,
        and schedule another process.  That process will destroy us
        when it calls thread_schedule_tail(). */
-    list_remove (&thread_current()->all_elem);
-    thread_current ()->status = THREAD_DYING;
-    schedule ();
+    list_remove(&thread_current()->all_elem);
+    thread_current()->status = THREAD_DYING;
+    schedule();
 
     intr_set_level (old_level);
 }
@@ -346,7 +345,7 @@ thread_yield (void)
     if (thread_current() != idle_thread)
         list_push_back (&ready_list, &thread_current()->elem);
     thread_current()->status = THREAD_READY;
-    schedule ();
+    schedule();
 
     intr_set_level (old_level);
 }

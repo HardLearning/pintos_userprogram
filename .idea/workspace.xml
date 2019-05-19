@@ -12,9 +12,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="095b55f0-6fde-4357-b46e-388185f63200" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintos/src/userprog.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/Progress/25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/CMakeFiles/feature_tests.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/block.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/ide.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/input.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/intq.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/kbd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/partition.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/pit.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/rtc.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/serial.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/shutdown.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/speaker.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/timer.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/devices/vga.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/bubsort.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/cat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/cmp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/cp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/echo.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/halt.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/hex-dump.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/insult.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/lineup.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/ls.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/matmult.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/mcat.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/mcp.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/mkdir.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/pwd.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/recursor.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/rm.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/examples/shell.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/filesys/directory.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/filesys/file.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/filesys/filesys.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/filesys/free-map.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/filesys/fsutil.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/filesys/inode.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/arithmetic.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/debug.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/kernel/console.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/kernel/debug.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/kernel/hash.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/kernel/list.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/random.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/stdio.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/stdlib.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/string.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/user/console.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/user/debug.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/user/entry.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/lib/ustar.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/os.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/Project.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/cmake-build-debug/os.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/threads/fixed_point.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/threads/init.c" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/threads/init.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/threads/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/threads/thread.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/threads/thread.h" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/threads/thread.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/userprog/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/userprog/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/userprog/Make.vars" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/userprog/Make.vars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/userprog/exception.c" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/userprog/exception.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pintos/src/userprog/process.c" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/userprog/process.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/userprog/syscall.c" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/userprog/syscall.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/utils/pintos-gdb" beforeDir="false" afterPath="$PROJECT_DIR$/pintos/src/utils/pintos-gdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/utils/setitimer-helper.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/utils/squish-pty.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pintos/src/utils/squish-unix.o" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/pintos/src/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -29,17 +131,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pintos/src/userprog/process.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,9 +176,9 @@
         <option value="$PROJECT_DIR$/pintos/src/userprog/syscall.h" />
         <option value="$PROJECT_DIR$/pintos/src/userprog/exception.c" />
         <option value="$PROJECT_DIR$/pintos/src/userprog/Make.vars" />
+        <option value="$PROJECT_DIR$/pintos/src/userprog/syscall.c" />
         <option value="$PROJECT_DIR$/pintos/src/threads/thread.h" />
         <option value="$PROJECT_DIR$/pintos/src/threads/thread.c" />
-        <option value="$PROJECT_DIR$/pintos/src/userprog/syscall.c" />
         <option value="$PROJECT_DIR$/pintos/src/userprog/process.c" />
       </list>
     </option>
@@ -116,19 +208,6 @@
               <item name="os" type="b2602c69:ProjectViewProjectNode" />
               <item name="os" type="462c0819:PsiDirectoryNode" />
               <item name="pintos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="os" type="b2602c69:ProjectViewProjectNode" />
-              <item name="os" type="462c0819:PsiDirectoryNode" />
-              <item name="pintos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="os" type="b2602c69:ProjectViewProjectNode" />
-              <item name="os" type="462c0819:PsiDirectoryNode" />
-              <item name="pintos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +289,8 @@
       <workItem from="1558184650458" duration="125000" />
       <workItem from="1558193478843" duration="1589000" />
       <workItem from="1558195123459" duration="3030000" />
-      <workItem from="1558235107160" duration="171000" />
+      <workItem from="1558235107160" duration="3848000" />
+      <workItem from="1558240885819" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1558168634273</created>
@@ -254,17 +334,23 @@
       <option name="project" value="LOCAL" />
       <updated>1558194642010</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first commit">
+      <created>1558235287207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558235287207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104588000" />
+    <option name="totallyTimeSpent" value="108571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1853" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.24623115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49812734" visible="true" weight="0.18090452" />
       <window_info id="Structure" order="1" sideWeight="0.50187266" side_tool="true" weight="0.25296018" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -327,54 +413,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/gdt.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/gdt.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/pagedir.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-563">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/pagedir.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="e#55#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/lib/kernel/list.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="216" selection-start-line="216" selection-end-line="216" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/filesys/file.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/palloc.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/gdt.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/gdt.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/pagedir.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/pagedir.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/lib/kernel/list.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/filesys/file.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/palloc.h" />
     <entry file="file://$PROJECT_DIR$/bochs-2.6.7/bios/rombios.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -382,96 +427,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/init.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3741">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#602#745#0" expanded="true" />
-            <element signature="e#2580#2617#0" expanded="true" />
-            <element signature="e#2763#2867#0" expanded="true" />
-            <element signature="e#6016#6322#0" expanded="true" />
-            <element signature="e#6496#6567#0" expanded="true" />
-            <element signature="e#7321#7359#0" expanded="true" />
-            <element signature="e#7972#8125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/lib/string.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/malloc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="218" selection-start-line="218" selection-end-line="218" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/synch.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1359">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/lib/user/syscall.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2088">
-          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/lib/syscall-nr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/devices/shutdown.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/interrupt.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/palloc.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/exception.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/process.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/init.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/lib/string.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/malloc.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/synch.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/lib/user/syscall.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/lib/syscall-nr.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/devices/shutdown.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/interrupt.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/palloc.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/exception.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/process.h" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -479,79 +445,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/exception.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3005">
-          <caret line="158" column="11" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/Make.vars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/vaddr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#49#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/thread.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-968">
-          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
-          <folding>
-            <element signature="e#51#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/syscall.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/threads/thread.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1950">
-          <caret line="178" column="36" selection-start-line="178" selection-start-column="36" selection-end-line="178" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/syscall.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="160" column="3" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/process.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/exception.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/Makefile" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/Make.vars" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/vaddr.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/syscall.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/syscall.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/thread.h" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/threads/thread.c" />
+    <entry file="file://$PROJECT_DIR$/pintos/src/userprog/process.c" />
   </component>
 </project>

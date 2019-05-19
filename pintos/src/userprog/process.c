@@ -35,16 +35,16 @@ process_execute (const char *file_name)
     /* Make a copy of FILE_NAME.
        Otherwise there's a race between the caller and load(). */
 
-    char *fn_copy = malloc(strlen(file_name)+1);
-    char *fn_copy2 = malloc(strlen(file_name)+1);
-    strlcpy(fn_copy, file_name, strlen(file_name)+1);
-    strlcpy(fn_copy2, file_name, strlen(file_name)+1);
+    char *fn = malloc(strlen(file_name)+1);
+    char *fn2 = malloc(strlen(file_name)+1);
+    strlcpy(fn, file_name, strlen(file_name)+1);
+    strlcpy(fn2, file_name, strlen(file_name)+1);
 
 
     /* Create a new thread to execute FILE_NAME. */
     char *save_ptr;
-    fn_copy2 = strtok_r(fn_copy2," ",&save_ptr);
-    tid = thread_create (fn_copy2, PRI_DEFAULT, start_process, fn_copy);
+    fn2 = strtok_r(fn2," ",&save_ptr);
+    tid = thread_create (fn2, PRI_DEFAULT, start_process, fn);
 
 
     /*the parent thread blocked, and waited until the child thread loaded */
@@ -61,8 +61,8 @@ start_process (void *file_name_)
     struct intr_frame if_;
     bool success;
 
-    char *fn_copy = malloc(strlen(file_name_)+1);
-    strlcpy(fn_copy, file_name_, strlen(file_name_)+1);
+    char *fn = malloc(strlen(file_name_)+1);
+    strlcpy(fn, file_name_, strlen(file_name_)+1);
 
     /* Initialize interrupt frame and load executable. */
     memset(&if_, 0, sizeof if_);
@@ -71,9 +71,9 @@ start_process (void *file_name_)
     if_.eflags = FLAG_IF | FLAG_MBS;
 
     char *token, *save_ptr;
-    fn_copy = strtok_r(fn_copy, " ", &save_ptr);
-    success = load (fn_copy, &if_.eip, &if_.esp);
-    strlcpy(fn_copy, file_name_, strlen(file_name_)+1);
+    fn = strtok_r(fn, " ", &save_ptr);
+    success = load (fn, &if_.eip, &if_.esp);
+    strlcpy(fn, file_name_, strlen(file_name_)+1);
 
     if (!success) {
         thread_current()->parent_thread->execute_success = false;
@@ -85,7 +85,7 @@ start_process (void *file_name_)
 
     //put the argument into the stack
     int argc = 0;
-    token = strtok_r(fn_copy, " ", &save_ptr);
+    token = strtok_r(fn, " ", &save_ptr);
     while (token != NULL){
         argc++;
         token = strtok_r(NULL, " ", &save_ptr);
@@ -94,8 +94,8 @@ start_process (void *file_name_)
 
     //read the argument
     int argv[argc], count = 0, zero = 0;
-    strlcpy(fn_copy, file_name_, strlen(file_name_)+1);
-    token = strtok_r(fn_copy, " ", &save_ptr);
+    strlcpy(fn, file_name_, strlen(file_name_)+1);
+    token = strtok_r(fn, " ", &save_ptr);
     while (token != NULL){
         if_.esp -= (strlen(token) + 1);
         memcpy(if_.esp, token, strlen(token) + 1);
@@ -145,12 +145,11 @@ process_wait (tid_t child_tid UNUSED)
                 act->waited = true;
                 sema_down(&act->sema);
                 break;
-            } else return -1;
+            }
         }
     }
     if (e == list_end(l)) return -1;
 
-    //移走孩子元素,返回退出状态
     /*remove the child, and return the exit status */
     list_remove(e);
     return act->exit_status;
